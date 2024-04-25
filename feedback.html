@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Feedback form</title>
+        <link rel="stylesheet" href="D:\Programs\HTML\Save water\style.css">
+    </head>
+    <body>
+        <h1><marquee><u>Feedback Form</u></marquee></h1>
+        <form action="submission.html" method="post">
+            <h3>Personal details:-</h3>
+            <div class = box>
+                <label class = "per" id = "name">Name</label>
+                <input class = "per" type="text" placeholder ="Enter your name" required id = "name"><br>
+                <label class = "per">Email id </label>
+                <input  class = "per" type = "email" placeholder = "Enter your email id" required><br>
+                <label class = "per" >Date of birth</label>
+                <input  class = "per" type = "date" required ><br>
+                <label for="gender" class = "per">Gender</label><br>
+                <input type = "radio" name = gender value = "male"  class = "per">Male<br>
+                <input type = "radio" name = gender value = "female"  class = "per">female<br>
+                <input type = "radio" name = gender value = "other"  class = "per">Others<br>
+                <label class="per" id = "state">State </label>
+                <select name = state id = "state" >
+                    <option value = "select">Select State</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value = "Jharkhand">Jharkhand</option>
+                    <option value = "West Bengal">West Bengal</option>
+                    <option value = "UP">Uttar Pradesh</option>
+                    <option value = "oddisa">Oddisa</option>
+                </select>
+            </div>
+            <h3>Survey Question:-</h3>
+            <div class = box>
+                <label class = "question" id = "name">1. In which platformm have you heard about water pollution? Select and apply:</label><br>
+                <input type="checkbox"name = "tv" id = "q1">Television <br>
+                <input type="checkbox"name = "paper" id = "q1">Newspaper <br>
+                <input type="checkbox"name = "net" id = "q1">Internet <br>
+                <input type="checkbox"name = "Academic" id = "q1">Academic journals/ special publications <br>
+                <input type="checkbox"name = "Enviroment group" id = "q1">Enviroment group <br>
+                <input type="checkbox"name = "School/College/University" id = "q1">School/ College/ University <br>
+                <input type="checkbox"name = "Friend/colleagues" id = "q1">Friend/colleagues <br>
+                <input type="checkbox"name = "Others" id = "q1">Others <br>
+                <div class = "quesend"></div>
+
+                <label class = "question" for = "question2">2. Do you turn off water while brushing your teeth?</label><br>
+                <input type="radio" name ="question2" id = "q1" value = "yes">Yes <br>
+                <input type="radio" name ="question2" value = "no" id = "q1">No <br>
+                <div class = "quesend"></div>
+
+                <label for ="question3" class = "question">3.Did you installed water-saving shower heads or flow restrictors?</label><br>
+                <input type = "radio" name = "question3" value = "yes" id = "q1">Yes <br>
+                <input type = "radio" name = "question3" value = "no" id = "q1">No <br>
+                <div class = "quesend"></div>
+
+                <label for = "question4" class = "question">4.Do you turn off water while shaving?</label><br>
+                <input type = "radio" name = "question4" value = "yes" id = "q1">Yes <br>
+                <input type = "radio" name = "question4" value = "no" id = "q1">No <br>
+                <div class = "quesend"></div>
+
+                <textarea name="suggestion" class="question" cols="30" rows="10">Put your suggestions</textarea>
+            </div>
+
+            <input type = "submit" class = "button">
+        </form>
+        <h4><a href ="Index.html">Click here</a> to back.</h4>
+    </body>
+</html>

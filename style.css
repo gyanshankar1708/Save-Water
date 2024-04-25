@@ -1,0 +1,52 @@
+.box{
+    border: 1px solid black;
+}
+.per{
+    margin: 5px;
+    padding: 2px;
+}
+#name{
+    margin-top:10px;
+}
+#state{
+    margin-bottom:10px;
+}
+.question{
+    margin:5px;
+    margin-top: 10px;
+}
+#q1{
+    margin-left:20px;
+}
+.quesend{
+    border-bottom: solid 1px black;
+}
+.button{
+    margin: 50;
+    position: relative;
+    left:600px;
+}
+a:hover{
+    color:violet;
+}
+a:active{
+    color: green;
+}
+a:visited{
+    color:blue;
+}
+body{
+    background-image: url("https://imgs.search.brave.com/JCpMc1kiFq0pv_WT1Uxs8gYYlh7x3WxXu9LUvl_YrPA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA1LzgxLzA5LzQ5/LzM2MF9GXzU4MTA5/NDk0N19GajNOMmtt/T1R4QlhqQUJjbDBH/dVJZbFlqeTR6OW5t/Ri5qcGc");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+    color:black;
+}
+.final{
+    border:5px solid black;
+    width: 500px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
